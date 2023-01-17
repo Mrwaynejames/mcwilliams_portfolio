@@ -14,12 +14,12 @@ const Navbar = () => {
             </div>
             {/* menu */}
             
-                <ul className="hidden md:flex">
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Skills</li>
-                    <li>Work</li>
-                    <li>Contact</li>
+                <ul className="hidden md:flex ">
+                    <li className="hover:text-[#edff00]" >Home</li>
+                    <li className="hover:text-[#edff00]" >About</li>
+                    <li className="hover:text-[#edff00]" >Skills</li>
+                    <li className="hover:text-[#edff00]" >Work</li>
+                    <li className="hover:text-[#edff00]" >Contact</li>
                 </ul>
             
             {/* Hamburgrt */}
@@ -36,7 +36,7 @@ const Navbar = () => {
             </ul>
 
             {/* social icons */}
-            <div className='flex fixed flex-col top-[35%] left-0'>
+            <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
                 <ul>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600' >
                         <a className='flex justify-between items-center w-full text-gray-300'
