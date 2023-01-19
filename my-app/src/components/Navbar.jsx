@@ -3,6 +3,7 @@ import logo from '../assets/jm.png'
 import {FaBars, FaTimes, FaGithub, FaLinkedin, FaInstagram} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import { BsFillPersonLinesFill} from 'react-icons/bs'
+import resume from "../assets/Jack_McWilliams_Tech.pdf"
 const Navbar = () => {
     const [nav, setNav] = useState(false)
     const handleClick = () => setNav(!nav)
@@ -15,9 +16,9 @@ const Navbar = () => {
             {/* menu */}
             
                 <ul className="hidden md:flex ">
-                    <li className="hover:text-[#edff00]" >Home</li>
-                    <li className="hover:text-[#edff00]" >About</li>
-                    <li className="hover:text-[#edff00]" >Skills</li>
+                    <li className="hover:text-[#edff00]" to="home">Home</li>
+                    <li className="hover:text-[#edff00]" to="about">About</li>
+                    <li className="hover:text-[#edff00]" to="skills">Skills</li>
                     <li className="hover:text-[#edff00]" >Work</li>
                     <li className="hover:text-[#edff00]" >Contact</li>
                 </ul>
@@ -40,19 +41,19 @@ const Navbar = () => {
                 <ul>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600' >
                         <a className='flex justify-between items-center w-full text-gray-300'
-                        href="/">
+                        href="https://www.linkedin.com/in/jack-mcwilliams1996/">
                             Linkedin <FaLinkedin size={30}/>
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-600' >
                         <a className='flex justify-between items-center w-full text-gray-300'
-                        href="/">
+                        href="https://github.com/Mrwaynejames">
                             Github <FaGithub size={30}/>
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gradient-to-r from-[#4f5bd5] via-[#962fbf] via-[#d62976] to-[#feda75] ' >
                         <a className='flex justify-between items-center w-full text-gray-300'
-                        href="/">
+                        href="https://www.instagram.com/jackmcwillliams/">
                             Instagram <FaInstagram size={30}/>
                         </a>
                     </li>
@@ -64,7 +65,7 @@ const Navbar = () => {
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-stone-900' >
                         <a className='flex justify-between items-center w-full text-gray-300'
-                        href="/">
+                        href={resume}>
                             Resume <BsFillPersonLinesFill size={30}/>
                         </a>
                     </li>
