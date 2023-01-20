@@ -7,6 +7,9 @@ import mongo from "../assets/mongo.png"
 import node from "../assets/node.png"
 import react from "../assets/react.png"
 import tailwind from "../assets/tailwind.png"
+import { Link } from "react-router-dom";
+
+
 
 const Skills = () => {
   return (
@@ -48,6 +51,11 @@ const Skills = () => {
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duartion-500'>
                     <img className='w-20 mx-auto'src={tailwind} alt="html" />
                     <p className='my-4'>Tailwind</p>
+                </div>
+                <div>
+            <a href="/link">
+            <p className='text-gray-300 hover:text-[#edff00]'>See More</p>
+            </a>
                 </div>
             </div>
         </div>

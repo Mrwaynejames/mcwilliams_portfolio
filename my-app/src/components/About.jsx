@@ -1,4 +1,7 @@
 import React from 'react';
+import resume from "../assets/Jack_McWilliams_Tech.pdf";
+
+
 
 const About = () => {
   return (
@@ -21,6 +24,9 @@ const About = () => {
               the lives of those around me. I specialize in creating software
               for clients ranging from individuals and small-businesses all the
               way to large enterprise corporations.</p>  
+              <a href={resume}>
+              <button className='text-white border-2 hover:bg-[#edff00] hover:border-[#edff00] hover:text-[#0a192f] px-4 py-3 my-8 mx-auto flex items-center'>Resume</button>
+              </a>
             </div>
           </div>
       </div>

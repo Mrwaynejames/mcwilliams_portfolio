@@ -1,7 +1,6 @@
 import React, {useState}from 'react'
 import logo from '../assets/jm.png'
 import {FaBars, FaTimes, FaGithub, FaLinkedin, FaInstagram} from 'react-icons/fa'
-import {HiOutlineMail} from 'react-icons/hi'
 import { BsFillPersonLinesFill} from 'react-icons/bs'
 import resume from "../assets/Jack_McWilliams_Tech.pdf";
 import {Link} from  'react-scroll'
@@ -22,7 +21,7 @@ const Navbar = () => {
                             Home
                         </Link>
                     </li>
-                    <li className="hover:text-[#edff00]" ><Link to="about" smooth={true}  duration={500}>
+                    <li className="hover:text-[#edff00]"><Link to="about" smooth={true}  duration={500}>
                             About
                         </Link></li>
                     <li className="hover:text-[#edff00]" ><Link to="skills" smooth={true}  duration={500}>
@@ -78,12 +77,6 @@ const Navbar = () => {
                         <a className='flex justify-between items-center w-full text-gray-300'
                         href="https://www.instagram.com/jackmcwillliams/">
                             Instagram <FaInstagram size={30}/>
-                        </a>
-                    </li>
-                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-lime-500 ' >
-                        <a className='flex justify-between items-center w-full text-gray-300'
-                        href="/">
-                            Email <HiOutlineMail size={30}/>
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-stone-900' >

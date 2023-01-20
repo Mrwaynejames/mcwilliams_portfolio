@@ -1,5 +1,9 @@
 import React from 'react'
-import tmb from '../assets/tmb.png'
+import tmb2 from '../assets/tmb2.png'
+import invest from '../assets/invest.png'
+import password from '../assets/password.png'
+import schedule from '../assets/schedule.png'
+import network from '../assets/network.png'
 
 const Work = () => {
   return (
@@ -13,7 +17,7 @@ const Work = () => {
         {/* container */}
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
             {/* work card */}
-                <div style={{backgroundImage:`url(${tmb})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                <div style={{backgroundImage:`url(${tmb2})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     {/* hover effect */}
                     <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
@@ -21,27 +25,74 @@ const Work = () => {
                             </span>
                             <div className='pt-8 text-center'>
                                 <a href="/">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Website</button>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:scale-110 duartion-500'>Website</button>
                                 </a>
                                 <a href="/">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Github</button>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:scale-110 duartion-500'>Github</button>
                                 </a>
 
                             </div>
                     </div>
                 </div>
-                <div style={{backgroundImage:`url(${tmb})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                <div style={{backgroundImage:`url(${invest})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     {/* hover effect */}
                     <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                Trademark Beauty
+                                Investor Rest
                             </span>
                             <div className='pt-8 text-center'>
                                 <a href="/">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Website</button>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:scale-110 duartion-500'>Website</button>
                                 </a>
                                 <a href="/">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Github</button>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:scale-110 duartion-500'>Github</button>
+                                </a>
+
+                            </div>
+                    </div>
+                </div>
+                <div style={{backgroundImage:`url(${password})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    {/* hover effect */}
+                    <div className='opacity-0 group-hover:opacity-100'>
+                            <span className='text-2xl font-bold text-white tracking-wider'>
+                                Password Generator
+                            </span>
+                            <div className='pt-8 text-center'>
+                                <a href="/">
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:scale-110 duartion-500'>Website</button>
+                                </a>
+                                <a href="/">
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:scale-110 duartion-500'>Github</button>
+                                </a>
+
+                            </div>
+                    </div>
+                </div>
+                <div style={{backgroundImage:`url(${schedule})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    {/* hover effect */}
+                    <div className='opacity-0 group-hover:opacity-100'>
+                            <span className='text-2xl font-bold text-white tracking-wider'>
+                                Work Schedule
+                            </span>
+                            <div className='pt-8 text-center'>
+                                <a href="/">
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:scale-110 duartion-500'>Website</button>
+                                </a>
+                                <a href="/">
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:scale-110 duartion-500'>Github</button>
+                                </a>
+
+                            </div>
+                    </div>
+                </div><div style={{backgroundImage:`url(${network})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    {/* hover effect */}
+                    <div className='opacity-0 group-hover:opacity-100'>
+                            <span className='text-2xl font-bold text-white tracking-wider'>
+                                Backend Network
+                            </span>
+                            <div className='pt-8 text-center'>
+                                <a href="/">
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:scale-110 duartion-500'>Github</button>
                                 </a>
 
                             </div>
