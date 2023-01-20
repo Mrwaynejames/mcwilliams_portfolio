@@ -24,10 +24,10 @@ const Work = () => {
                                 Trademark Beauty
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="/">
+                                <a href="https://shoptrademarkbeauty.com/">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:scale-110 duartion-500'>Website</button>
                                 </a>
-                                <a href="/">
+                                <a href="https://gist.github.com/Mrwaynejames/f1aacdf09efa310f04bd50f1b90e4f36">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:scale-110 duartion-500'>Github</button>
                                 </a>
 
@@ -41,10 +41,10 @@ const Work = () => {
                                 Investor Rest
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="/">
+                                <a href="https://investorrest.herokuapp.com/">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:scale-110 duartion-500'>Website</button>
                                 </a>
-                                <a href="/">
+                                <a href="https://github.com/shwethareddy0/investorrest">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:scale-110 duartion-500'>Github</button>
                                 </a>
 
@@ -58,10 +58,10 @@ const Work = () => {
                                 Password Generator
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="/">
+                                <a href="https://mrwaynejames.github.io/password-generator/">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:scale-110 duartion-500'>Website</button>
                                 </a>
-                                <a href="/">
+                                <a href="https://github.com/Mrwaynejames/password-generator">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:scale-110 duartion-500'>Github</button>
                                 </a>
 
@@ -75,10 +75,10 @@ const Work = () => {
                                 Work Schedule
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="/">
+                                <a href="https://mrwaynejames.github.io/schedule/">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:scale-110 duartion-500'>Website</button>
                                 </a>
-                                <a href="/">
+                                <a href="https://github.com/Mrwaynejames/schedule">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:scale-110 duartion-500'>Github</button>
                                 </a>
 
@@ -91,7 +91,10 @@ const Work = () => {
                                 Backend Network
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="/">
+                            <a href="https://drive.google.com/file/d/137N2O902JhPZf2Kl1DxTHB46jC613s5r/view">
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:scale-110 duartion-500'>Video</button>
+                                </a>
+                                <a href="https://github.com/Mrwaynejames/Network_API">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:scale-110 duartion-500'>Github</button>
                                 </a>
 

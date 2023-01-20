@@ -7,8 +7,10 @@ import mongo from "../assets/mongo.png"
 import node from "../assets/node.png"
 import react from "../assets/react.png"
 import tailwind from "../assets/tailwind.png"
-import { Link } from "react-router-dom";
-
+import mysql from "../assets/mysql.png"
+import json from "../assets/json.png"
+import fetch from "../assets/fetch.png"
+import boot from "../assets/Fetch API.png"
 
 
 const Skills = () => {
@@ -17,7 +19,7 @@ const Skills = () => {
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div>
                 <p className='text-4xl font-bold inline border-b-4 border-[#edff00] '>Skills</p>
-                <p className='py-4'>These are the technologies I'm most confident in</p>
+                <p className='py-4'>Some of the Technologies I have experience in</p>
             </div>
             <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duartion-500'>
@@ -51,12 +53,23 @@ const Skills = () => {
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duartion-500'>
                     <img className='w-20 mx-auto'src={tailwind} alt="html" />
                     <p className='my-4'>Tailwind</p>
-                </div>
-                <div>
-            <a href="/link">
-            <p className='text-gray-300 hover:text-[#edff00]'>See More</p>
-            </a>
-                </div>
+                </div>  
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duartion-500'>
+                    <img className='w-20 mx-auto'src={mysql} alt="html" />
+                    <p className='my-4'>MySQL</p>
+                </div>      
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duartion-500'>
+                    <img className='w-20 mx-auto'src={fetch} alt="html" />
+                    
+                </div>  
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duartion-500'>
+                    <img className='w-20 mx-auto'src={json} alt="html" />
+                   
+                </div>   
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duartion-500'>
+                    <img className='w-20 mx-auto'src={boot} alt="html" />
+                    <p className='my-4'>Bootstrap</p>
+                </div>           
             </div>
         </div>
     </div>
