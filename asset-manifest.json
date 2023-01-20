@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/mcwilliams_portfolio/static/css/main.00755af4.css",
+    "main.js": "/mcwilliams_portfolio/static/js/main.b5845d81.js",
+    "static/media/tmb2.png": "/mcwilliams_portfolio/static/media/tmb2.c8abaf2d1bd7feeced6b.png",
+    "static/media/network.png": "/mcwilliams_portfolio/static/media/network.5f9a3b3134bf200e9f44.png",
+    "static/media/schedule.png": "/mcwilliams_portfolio/static/media/schedule.5eb26febd45a693eb810.png",
+    "static/media/invest.png": "/mcwilliams_portfolio/static/media/invest.16d30cc57e5d788d760a.png",
+    "static/media/Jack_McWilliams_Tech.pdf": "/mcwilliams_portfolio/static/media/Jack_McWilliams_Tech.e14a59601323e14a3f91.pdf",
+    "static/media/Fetch API.png": "/mcwilliams_portfolio/static/media/Fetch API.49f13ede1cb89eff93aa.png",
+    "static/media/jm.png": "/mcwilliams_portfolio/static/media/jm.f99aaa178157d0d28866.png",
+    "static/media/react.png": "/mcwilliams_portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/password.png": "/mcwilliams_portfolio/static/media/password.9603c83f15e03a8d4fdb.png",
+    "static/media/node.png": "/mcwilliams_portfolio/static/media/node.952a9ea986dcfa5229ad.png",
+    "static/media/mongo.png": "/mcwilliams_portfolio/static/media/mongo.2a1528ddc31d4ce8518d.png",
+    "static/media/fetch.png": "/mcwilliams_portfolio/static/media/fetch.c7878eacc5992a09072f.png",
+    "static/media/json.png": "/mcwilliams_portfolio/static/media/json.a6e2b81ea0129b59f5cd.png",
+    "static/media/github.png": "/mcwilliams_portfolio/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/html.png": "/mcwilliams_portfolio/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/tailwind.png": "/mcwilliams_portfolio/static/media/tailwind.e47ac876b8d4d0bba47a.png",
+    "static/media/css.png": "/mcwilliams_portfolio/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/mysql.png": "/mcwilliams_portfolio/static/media/mysql.4676ad983d6bd3e9fac9.png",
+    "static/media/javascript.png": "/mcwilliams_portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/mcwilliams_portfolio/index.html",
+    "main.00755af4.css.map": "/mcwilliams_portfolio/static/css/main.00755af4.css.map",
+    "main.b5845d81.js.map": "/mcwilliams_portfolio/static/js/main.b5845d81.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.00755af4.css",
+    "static/js/main.b5845d81.js"
+  ]
+}
