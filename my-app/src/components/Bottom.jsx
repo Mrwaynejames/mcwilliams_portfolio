@@ -18,6 +18,9 @@ const Bottom = () => {
             <a href="https://www.instagram.com/jackmcwillliams/">
                 <li className='no-underline hover:underline'>Instagram</li>
             </a>
+            <a href="https://github.com/Mrwaynejames/mcwilliams_portfolio">
+                <li className='no-underline hover:underline'>Website Repository</li>
+            </a>
         </ul>
     </div>
   )
