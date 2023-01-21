@@ -21,7 +21,7 @@ const Skills = () => {
                 <p className='text-4xl font-bold inline border-b-4 border-[#edff00] '>Skills</p>
                 <p className='py-4'>Some of the Technologies I have experience in</p>
             </div>
-            <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
+            <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8 mb-6'>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duartion-500'>
                     <img className='w-20 mx-auto'src={html} alt="html" />
                     <p className='my-4'>HTML</p>
@@ -69,7 +69,8 @@ const Skills = () => {
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duartion-500'>
                     <img className='w-20 mx-auto'src={boot} alt="html" />
                     <p className='my-4'>Bootstrap</p>
-                </div>           
+                </div>   
+                <div></div>        
             </div>
         </div>
     </div>
