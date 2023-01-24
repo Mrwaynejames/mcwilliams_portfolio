@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/mcwilliams_portfolio/static/css/main.00755af4.css",
-    "main.js": "/mcwilliams_portfolio/static/js/main.b5845d81.js",
+    "main.css": "/mcwilliams_portfolio/static/css/main.bf400c8e.css",
+    "main.js": "/mcwilliams_portfolio/static/js/main.758ba73d.js",
     "static/media/tmb2.png": "/mcwilliams_portfolio/static/media/tmb2.c8abaf2d1bd7feeced6b.png",
     "static/media/network.png": "/mcwilliams_portfolio/static/media/network.5f9a3b3134bf200e9f44.png",
     "static/media/schedule.png": "/mcwilliams_portfolio/static/media/schedule.5eb26febd45a693eb810.png",
     "static/media/invest.png": "/mcwilliams_portfolio/static/media/invest.16d30cc57e5d788d760a.png",
     "static/media/Jack_McWilliams_Tech.pdf": "/mcwilliams_portfolio/static/media/Jack_McWilliams_Tech.e14a59601323e14a3f91.pdf",
     "static/media/Fetch API.png": "/mcwilliams_portfolio/static/media/Fetch API.49f13ede1cb89eff93aa.png",
+    "static/media/work headshot.jpeg": "/mcwilliams_portfolio/static/media/work headshot.788cbfd8b43e57798c28.jpeg",
     "static/media/jm.png": "/mcwilliams_portfolio/static/media/jm.f99aaa178157d0d28866.png",
     "static/media/react.png": "/mcwilliams_portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/password.png": "/mcwilliams_portfolio/static/media/password.9603c83f15e03a8d4fdb.png",
@@ -22,11 +23,11 @@
     "static/media/mysql.png": "/mcwilliams_portfolio/static/media/mysql.4676ad983d6bd3e9fac9.png",
     "static/media/javascript.png": "/mcwilliams_portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/mcwilliams_portfolio/index.html",
-    "main.00755af4.css.map": "/mcwilliams_portfolio/static/css/main.00755af4.css.map",
-    "main.b5845d81.js.map": "/mcwilliams_portfolio/static/js/main.b5845d81.js.map"
+    "main.bf400c8e.css.map": "/mcwilliams_portfolio/static/css/main.bf400c8e.css.map",
+    "main.758ba73d.js.map": "/mcwilliams_portfolio/static/js/main.758ba73d.js.map"
   },
   "entrypoints": [
-    "static/css/main.00755af4.css",
-    "static/js/main.b5845d81.js"
+    "static/css/main.bf400c8e.css",
+    "static/js/main.758ba73d.js"
   ]
 }
