@@ -17,17 +17,17 @@ const About = () => {
           </div>
           <div className='max-w-[1000px] w-full grid  gap-8 px-4'>
             <div>
-              <p>  I am a recent graduate from UC Berkeley Full Stack Certification Program. I also obtained
-              my B.A in Business from the Univeristy of Oregon in 2019. 
-              For the last year I have been an E-commerce manager. 
-              I know my education and experience will make a valuable member
-               to your team..</p>
+              <p>  I am a recent graduate from UC Berkeley Full Stack Certification Program.
+                 I'm eager and passionate to learn and further develop my skills.
+                I also have a B.A in Business Administration, combining my educations means that I not only 
+                understand business concepts but value them and hace the technical skills to implement them.</p>
             </div>
             <div>
               <p>I am passionate about building excellent software that improves
-              the lives of those around me. I specialize in creating software
-              for clients ranging from individuals and small-businesses all the
-              way to large enterprise corporations.</p>  
+              the lives of those around me. I am currently an E-commerce manager where I 
+              customize code to imporve the UI/UX journey. As a former college athlete I will take
+              that same work ethic and drive to take on an challenge I come across. I look forward for the 
+              opportunity to learn new technologies effiiciently and thuroughly so that I can best benefit the company. </p>  
             </div>
             <a href={resume}>
               <button className='text-white border-2 hover:bg-[#edff00] hover:border-[#edff00] hover:text-[#0a192f] px-4 py-3 my-8 mx-auto flex items-center'>Resume</button>
